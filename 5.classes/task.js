@@ -62,3 +62,11 @@ class DetectiveBook extends Book {
     this.type = "detective";
   }
 }
+module.exports = {
+  PrintEditionItem,
+  Magazine,
+  Book,
+  NovelBook,
+  FantasticBook,
+  DetectiveBook,
+};
